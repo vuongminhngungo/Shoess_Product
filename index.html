@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MonaSneaker</title>
+    <!-- font aweasome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- resert -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <header class="header-top">
+      <div class="container">
+        <div class="body">
+          <!-- logo -->
+          <a href="#!" class="logo"
+            ><strong>MONA</strong> SNE<i class="fa-regular fa-star"></i>KER
+          </a>
+          <!-- search -->
+          <div class="search">
+            <a href="#!" class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+            <input
+              type="text"
+              placeholder="Tìm kiếm sản phẩm"
+              class="search-input"
+            />
+          </div>
+          <!-- cart -->
+          <div class="cart">
+            <span class="cart-name">Giỏ Hàng /</span>
+            <span class="cart-price">0 </span>
+            <a href="#!" class="cart-logo">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span class="cart-ammount">99+</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="header-bottom">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li>
+              <a href="./home.html" class="list-item item-top">Trang Chủ</a>
+            </li>
+            <li>
+              <a href="./nu.html" class="list-item">Nữ</a>
+            </li>
+            <li>
+              <a href="./nam.html" class="list-item">Nam</a>
+            </li>
+            <li>
+              <a href="./trecon.html" class="list-item">Trẻ Em</a>
+            </li>
+            <li>
+              <a href="./other.html" class="list-item">Phụ Kiện Khác</a>
+            </li>
+            <li>
+              <a href="./news.html" class="list-item">Tin Tức</a>
+            </li>
+          </ul>
+          <div class="btn-action">
+            <a href="#!" class="btn-link btn-signIn">Đăng Ký</a>
+            <a href="#!" class="btn-link btn-signUp">Đăng Nhập</a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <main>
+      <section class="slideShow">
+        <div class="container">
+          <div class="slide-content">
+            <div class="slide-list">
+              <!-- item-1 -->
+              <article class="slide-item">
+                <img
+                  class="item-media"
+                  src="./assets/img/Banner/slide-1.jpg"
+                  alt=""
+                />
+                <section class="item-content">
+                  <h1 class="item-heading">
+                    <strong>MONA</strong>
+                    SNE<i class="fa-regular fa-star"></i>KER
+                  </h1>
+                  <p class="item-desc">
+                    Chào mừng bạn đến với ngôi nhà Converse! Tại đây, mỗi một
+                    dòng chữ, mỗi chi tiết và hình ảnh đều là những bằng chứng
+                    mang dấu ấn lịch sử Converse 100 năm, và đang không ngừng
+                    phát triển lớn mạnh.
+                  </p>
+                </section>
+              </article>
+              <!-- item-2 -->
+              <article class="slide-item">
+                <img
+                  class="item-media"
+                  src="./assets/img/Banner/slide-2.jpg"
+                  alt=""
+                />
+                <section class="item-content">
+                  <h1 class="item-heading">
+                    <strong>MONA</strong>
+                    SNE<i class="fa-regular fa-star"></i>KER
+                  </h1>
+                  <p class="item-desc">
+                    Chào mừng bạn đến với ngôi nhà Converse! Tại đây, mỗi một
+                    dòng chữ, mỗi chi tiết và hình ảnh đều là những bằng chứng
+                    mang dấu ấn lịch sử Converse 100 năm, và đang không ngừng
+                    phát triển lớn mạnh.
+                  </p>
+                </section>
+              </article>
+
+              <!-- item-3 -->
+              <article class="slide-item">
+                <img
+                  class="item-media"
+                  src="./assets/img/Banner/slide-3.jpg"
+                  alt=""
+                />
+                <section class="item-content">
+                  <h1 class="item-heading">
+                    <strong>MONA</strong>
+                    SNE<i class="fa-regular fa-star"></i>KER
+                  </h1>
+                  <p class="item-desc">
+                    Chào mừng bạn đến với ngôi nhà Converse! Tại đây, mỗi một
+                    dòng chữ, mỗi chi tiết và hình ảnh đều là những bằng chứng
+                    mang dấu ấn lịch sử Converse 100 năm, và đang không ngừng
+                    phát triển lớn mạnh.
+                  </p>
+                </section>
+              </article>
+
+              <!-- dots -->
+              <div class="slide-dots">
+                <span class="dot dot-active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advertisement">
+        <div class="container">
+          <div class="advertisement-cards">
+            <div class="card">
+              <div class="content">
+                <img
+                  src="./assets/img/adsproduct/title01.png"
+                  alt=""
+                  class="card-media"
+                />
+                <img
+                  src="./assets/img/adsproduct/img01.jpg"
+                  alt=""
+                  class="card-media card-media-bottom"
+                />
+                <button class="card-btn">Xem sản phẩm</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <img
+                  src="./assets/img/adsproduct/title02.png"
+                  alt=""
+                  class="card-media"
+                />
+                <img
+                  src="./assets/img/adsproduct/img02.jpg"
+                  alt=""
+                  class="card-media card-media-bottom"
+                />
+                <button class="card-btn">Xem sản phẩm</button>
+              </div>
+            </div>
+            <div class="card">
+              <div class="content">
+                <img
+                  src="./assets/img/adsproduct/title03.png"
+                  alt=""
+                  class="card-media"
+                />
+                <img
+                  src="./assets/img/adsproduct/img03.jpg"
+                  alt=""
+                  class="card-media card-media-bottom"
+                />
+                <button class="card-btn">Xem sản phẩm</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="introduces">
+        <div class="container">
+          <div class="introduces-top">
+            <div class="introduces-media">
+              <img
+                src="./assets/img/Introduces/img01.jpg"
+                alt=""
+                class="introduce-img"
+              />
+            </div>
+            <div class="introduce-content">
+              <h2 class="introduce-heading">GIỚI THIỆU</h2>
+              <p class="introduce-desc">
+                Chào mừng bạn đến với ngôi nhà Converse! Tại đây, mỗi một dòng
+                chữ, mỗi chi tiết và hình ảnh đều là những bằng chứng mang dấu
+                ấn lịch sử Converse 100 năm, và đang không ngừng phát triển lớn
+                mạnh.
+              </p>
+              <h3 class="introduce-title">SẢN PHẨM GIÀY TỐT NHẤT</h3>
+              <div class="introduce-row">
+                <div class="introduce-desc introduce-desc-left">
+                  Chào mừng bạn đến với ngôi nhà Converse! Tại đây, mỗi một dòng
+                  chữ, mỗi chi tiết và hình ảnh đều là những bằng chứng mang dấu
+                  ấn lịch sử Converse 100 năm, và đang không ngừng phát triển
+                  lớn mạnh.
+                </div>
+                <div class="introduce-desc introduce-desc-right">
+                  Chào mừng bạn đến với ngôi nhà Converse! Tại đây, mỗi một dòng
+                  chữ, mỗi chi tiết và hình ảnh đều là những bằng chứng mang dấu
+                  ấn lịch sử Converse 100 năm, và đang không ngừng phát triển
+                  lớn mạnh.
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="introduces-bottom">
+            <div class="body">
+              <div class="row">
+                <div class="introduces-col">
+                  <div class="introduces-icon">
+                    <i class="fa-solid fa-truck"></i>
+                  </div>
+                  <div class="introduces-content">
+                    <h3 class="introduces-heading">Miễn phí giao hàng</h3>
+                    <div class="introduces-desc">
+                      Tại đây, mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều là
+                      những bằng chứng mang dấu ấn lịch sử Converse 100 năm, và
+                      đang không ngừng phát triển lớn mạnh
+                    </div>
+                  </div>
+                </div>
+                <div class="introduces-col">
+                  <div class="introduces-icon">
+                    <i class="fa-regular fa-handshake"></i>
+                  </div>
+                  <div class="introduces-content">
+                    <h3 class="introduces-heading">
+                      Đổi trả trong vòng 7 ngày
+                    </h3>
+                    <div class="introduces-desc">
+                      Tại đây, mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều là
+                      những bằng chứng mang dấu ấn lịch sử Converse 100 năm, và
+                      đang không ngừng phát triển lớn mạnh
+                    </div>
+                  </div>
+                </div>
+                <div class="introduces-col">
+                  <div class="introduces-icon">
+                    <i class="fa-brands fa-shopify"></i>
+                  </div>
+                  <div class="introduces-content">
+                    <h3 class="introduces-heading">Sản phẩm mới 100%</h3>
+                    <div class="introduces-desc">
+                      Tại đây, mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều là
+                      những bằng chứng mang dấu ấn lịch sử Converse 100 năm, và
+                      đang không ngừng phát triển lớn mạnh
+                    </div>
+                  </div>
+                </div>
+                <div class="introduces-col">
+                  <div class="introduces-icon">
+                    <i class="fa-solid fa-comment"></i>
+                  </div>
+                  <div class="introduces-content">
+                    <h3 class="introduces-heading">Chăm sóc khách hàng</h3>
+                    <div class="introduces-desc">
+                      Tại đây, mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều là
+                      những bằng chứng mang dấu ấn lịch sử Converse 100 năm, và
+                      đang không ngừng phát triển lớn mạnh
+                    </div>
+                  </div>
+                </div>
+                <div class="introduces-col">
+                  <div class="introduces-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <div class="introduces-content">
+                    <h3 class="introduces-heading">Hàng chính hãng</h3>
+                    <div class="introduces-desc">
+                      Tại đây, mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều là
+                      những bằng chứng mang dấu ấn lịch sử Converse 100 năm, và
+                      đang không ngừng phát triển lớn mạnh
+                    </div>
+                  </div>
+                </div>
+                <div class="introduces-col">
+                  <div class="introduces-icon">
+                    <i class="fa-regular fa-credit-card"></i>
+                  </div>
+                  <div class="introduces-content">
+                    <h3 class="introduces-heading">Thanh toán đa dạng</h3>
+                    <div class="introduces-desc">
+                      Tại đây, mỗi một dòng chữ, mỗi chi tiết và hình ảnh đều là
+                      những bằng chứng mang dấu ấn lịch sử Converse 100 năm, và
+                      đang không ngừng phát triển lớn mạnh
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="container">
+          <ul class="categories-top">
+            <li>
+              <a href="" class="categories-item item-active">SẢN PHẨM MỚI</a>
+            </li>
+            <li>
+              <a href="" class="categories-item">SẢN PHẨM BÁN CHẠY</a>
+            </li>
+            <li>
+              <a href="" class="categories-item">SẢN PHẨM PHỔ BIẾN</a>
+            </li>
+          </ul>
+          <div class="categories-bottom">
+            <a href="#!" class="cards-action cards-action-left">
+              <i class="fa-solid fa-chevron-left"></i>
+            </a>
+            <div class="categories-cards">
+              <!-- card - 1  -->
+              <div class="categories-card">
+                <a href="#!">
+                  <img
+                    src="./assets/img/Categories/img04.jpg"
+                    alt=""
+                    class="card-media"
+                  />
+                </a>
+                <div class="card-content">
+                  <a href="#!" class="card-name">
+                    <h3>Chuck 70 Archive Prints Hi</h3>
+                  </a>
+                  <p class="card-price">1,800,000 ₫</p>
+                  <button class="card-add">THÊM VÀO GIỎ</button>
+                </div>
+              </div>
+              <!-- card - 2  -->
+              <div class="categories-card">
+                <a href="#!">
+                  <img
+                    src="./assets/img/Categories/img01.jpg"
+                    alt=""
+                    class="card-media"
+                  />
+                </a>
+                <div class="card-content">
+                  <a href="#!" class="card-name">
+                    <h3>Chuck 70 Archive Prints Hi</h3>
+                  </a>
+                  <p class="card-price">2,100,000 ₫</p>
+                  <button class="card-add">THÊM VÀO GIỎ</button>
+                </div>
+              </div>
+              <!-- card - 3  -->
+              <div class="categories-card">
+                <a href="#!">
+                  <img
+                    src="./assets/img/Categories/img02.jpg"
+                    alt=""
+                    class="card-media"
+                  />
+                </a>
+                <div class="card-content">
+                  <a href="#!" class="card-name">
+                    <h3>Chuck 70 Archive Prints Hi</h3>
+                  </a>
+                  <p class="card-price">3,500,000 ₫</p>
+                  <button class="card-add">THÊM VÀO GIỎ</button>
+                </div>
+              </div>
+              <!-- card - 4  -->
+              <div class="categories-card">
+                <a href="#!">
+                  <img
+                    src="./assets/img/Categories/img03.jpg"
+                    alt=""
+                    class="card-media"
+                  />
+                </a>
+                <div class="card-content">
+                  <a href="#!" class="card-name">
+                    <h3>Chuck 70 Archive Prints Hi</h3>
+                  </a>
+                  <p class="card-price">2,165,000 ₫</p>
+                  <button class="card-add">THÊM VÀO GIỎ</button>
+                </div>
+              </div>
+            </div>
+            <a href="#!" class="cards-action cards-action-right">
+              <i class="fa-solid fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="banner">
+        <div class="container">
+          <div class="banner-background">
+            <div class="banner-content">
+              <h2 class="banner-heading">
+                <strong>MONA</strong>
+                SNE<i class="fa-regular fa-star"></i>KER
+              </h2>
+              <p class="banner-title">KHUYẾN MÃI <span>GIẢM GIÁ 50%</span></p>
+              <a href="#!" class="btn-banner">Xem sản phẩm</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="contact" id="contact">
+        <div class="container">
+          <h2 class="contact-heading">LIÊN HỆ</h2>
+          <div class="contact-row">
+            <div class="contact-info">
+              <h3 class="contact-info-heading">THÔNG TIN LIÊN HỆ</h3>
+              <div class="row">
+                <div class="info-icon">
+                  <i class="fa-solid fa-location-dot"></i>
+                </div>
+                <p class="info-address">
+                  319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM
+                </p>
+              </div>
+              <div class="row">
+                <div class="info-icon">
+                  <i class="fa-solid fa-phone-volume"></i>
+                </div>
+                <a href="#!" class="info-address">076 922 0162</a>
+              </div>
+              <div class="row">
+                <div class="info-icon">
+                  <i class="fa-solid fa-envelope-open-text"></i>
+                </div>
+                <a href="#!" class="info-address">demonhunterg@gmail.com</a>
+              </div>
+              <div class="row">
+                <div class="info-icon"><i class="fa-brands fa-skype"></i></div>
+                <a href="#!" class="info-address">demonhunterp</a>
+              </div>
+              <ul class="list-social">
+                <li>
+                  <a href="#!" class="social-item">
+                    <i class="fa-brands fa-facebook-f"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="#!" class="social-item"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#!" class="social-item"
+                    ><i class="fa-brands fa-twitter"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#!" class="social-item"
+                    ><i class="fa-brands fa-pinterest-p"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="#!" class="social-item"
+                    ><i class="fa-solid fa-wifi"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <form class="contact-form">
+              <div class="form-row">
+                <input type="text" class="form-input" placeholder="Họ và Tên" />
+                <input type="text" class="form-input" placeholder="Email" />
+              </div>
+              <div class="form-row">
+                <input
+                  type="text"
+                  class="form-input"
+                  placeholder="Số Điện Thoại"
+                />
+                <input type="text" class="form-input" placeholder="Địa Chỉ" />
+              </div>
+              <div class="form-row">
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Lời nhắn"
+                  class="form-input"
+                ></textarea>
+              </div>
+              <button class="btn-submit">Gửi</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-row">
+          <div class="footer-col">
+            <h3 class="footer-title">GIỚI THIỆU</h3>
+            <p class="footer-desc">
+              Chào mừng bạn đến với ngôi nhà Converse! Tại đây, mỗi một dòng
+              chữ, mỗi chi tiết và hình ảnh đều là những bằng chứng mang dấu ấn
+              lịch sử Converse 100 năm, và đang không ngừng phát triển lớn mạnh.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-title">ĐỊA CHỈ</h3>
+            <div class="row">
+              <div class="info-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <p class="info-address">
+                319 C16 Lý Thường Kiệt, Phường 15, Quận 11, Tp.HCM
+              </p>
+            </div>
+            <div class="row">
+              <div class="info-icon">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <a href="#!" class="info-address">076 922 0162</a>
+            </div>
+            <div class="row">
+              <div class="info-icon">
+                <i class="fa-solid fa-envelope-open-text"></i>
+              </div>
+              <a href="#!" class="info-address">demonhunterg@gmail.com</a>
+            </div>
+            <div class="row">
+              <div class="info-icon"><i class="fa-brands fa-skype"></i></div>
+              <a href="#!" class="info-address">demonhunterp</a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-title">MENU</h3>
+            <ul class="footer-list">
+              <li>
+                <a href="#!" class="footer-item">Trang Chủ</a>
+              </li>
+              <li>
+                <a href="#!" class="footer-item">Cửa Hàng</a>
+              </li>
+              <li>
+                <a href="#!" class="footer-item">Liên Hệ</a>
+              </li>
+              <li>
+                <a href="#!" class="footer-item">Giới Thiệu</a>
+              </li>
+              <li>
+                <a href="#!" class="footer-item">Tin tưc</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3 class="footer-title">Mạng Xã Hội</h3>
+            <ul class="list-social">
+              <li>
+                <a href="#!" class="social-item">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#!" class="social-item"
+                  ><i class="fa-brands fa-instagram"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#!" class="social-item"
+                  ><i class="fa-brands fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#!" class="social-item"
+                  ><i class="fa-brands fa-pinterest-p"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#!" class="social-item"
+                  ><i class="fa-solid fa-wifi"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-row">
+          <div class="footer-col">
+            <p class="footer-title">ĐĂNG KÝ NHẬN THÔNG TIN</p>
+          </div>
+          <div class="footer-col">
+            <div class="footer-form">
+              <input type="text" class="footer-input" placeholder="Email..." />
+              <button class="footer-submit">Đăng Ký</button>
+            </div>
+          </div>
+          <div class="footer-col">
+            <div class="footer-cards">
+              <a href="#!" class="footer-card">
+                <img
+                  src="./assets/img/Footer/footer01.png"
+                  alt=""
+                  class="card-img"
+                />
+              </a>
+              <a href="#!" class="footer-card">
+                <img
+                  src="./assets/img/Footer/footer02.png"
+                  alt=""
+                  class="card-img"
+                />
+              </a>
+              <a href="#!" class="footer-card">
+                <img
+                  src="./assets/img/Footer/footer03.png"
+                  alt=""
+                  class="card-img"
+                />
+              </a>
+              <a href="#!" class="footer-card">
+                <img
+                  src="./assets/img/Footer/footer04.png"
+                  alt=""
+                  class="card-img"
+                />
+              </a>
+              <a href="#!" class="footer-card">
+                <img
+                  src="./assets/img/Footer/footer05.png"
+                  alt=""
+                  class="card-img"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+        <p class="noCoppyRight">© Bản quyền thuộc về . Thiết kế website ...</p>
+      </div>
+    </footer>
+  </body>
+</html>
