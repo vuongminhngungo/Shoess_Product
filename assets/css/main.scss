@@ -22,7 +22,12 @@ body {
   width: 100%;
   margin: 0 auto;
 }
-
+.show {
+  display: block !important;
+}
+.hidden {
+  display: none !important;
+}
 $primaryColor: rgba(255, 255, 255, 0.8);
 $secondaryColor: #334862;
 .textClamp {
@@ -77,6 +82,7 @@ header.header-top {
         .cart-price {
           &::after {
             content: "đ";
+            margin-left: 4px;
             text-decoration: underline;
           }
         }
@@ -706,6 +712,21 @@ main {
                   background-color: #a10f0f;
                 }
               }
+              .show-add {
+                font-size: 1.4rem;
+                color: #334862;
+                font-weight: 600;
+                &::after {
+                  content: "\f291";
+                  display: block;
+                  margin-top: 8px;
+                  font-family: "Font Awesome 5 Free";
+                  font-weight: 900;
+                }
+                &:hover {
+                  color: #000;
+                }
+              }
             }
             &:hover {
               transition: all 0.2s ease-in;
@@ -753,7 +774,6 @@ main {
         .information-products {
           width: 60%;
           padding: 0 10px;
-
           .content {
             height: 500px;
             overflow: auto;
@@ -892,10 +912,13 @@ main {
               }
             }
             .total-desc {
+              font-weight: 600;
               color: #222222;
               font-size: 1.8rem;
             }
             .total-value {
+              font-weight: 600;
+
               &::after {
                 content: "đ";
                 margin-left: 2px;

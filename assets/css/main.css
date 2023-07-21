@@ -28,6 +28,14 @@ body {
   margin: 0 auto;
 }
 
+.show {
+  display: block !important;
+}
+
+.hidden {
+  display: none !important;
+}
+
 .textClamp {
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -80,6 +88,7 @@ header.header-top .container .body .cart {
 }
 header.header-top .container .body .cart .cart-price::after {
   content: "đ";
+  margin-left: 4px;
   text-decoration: underline;
 }
 header.header-top .container .body .cart .cart-logo {
@@ -687,6 +696,21 @@ main .product .container .body .product-list .product-item .item-content .item-a
 main .product .container .body .product-list .product-item .item-content .item-add:hover {
   background-color: #a10f0f;
 }
+main .product .container .body .product-list .product-item .item-content .show-add {
+  font-size: 1.4rem;
+  color: #334862;
+  font-weight: 600;
+}
+main .product .container .body .product-list .product-item .item-content .show-add::after {
+  content: "\f291";
+  display: block;
+  margin-top: 8px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}
+main .product .container .body .product-list .product-item .item-content .show-add:hover {
+  color: #000;
+}
 main .product .container .body .product-list .product-item:hover {
   transition: all 0.2s ease-in;
   box-shadow: 0 3px 6px -4px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -865,8 +889,12 @@ main .product .container .body .total-products .row .delivery > a {
   margin-top: 20px;
 }
 main .product .container .body .total-products .row .total-desc {
+  font-weight: 600;
   color: #222222;
   font-size: 1.8rem;
+}
+main .product .container .body .total-products .row .total-value {
+  font-weight: 600;
 }
 main .product .container .body .total-products .row .total-value::after {
   content: "đ";
