@@ -50,12 +50,20 @@ function deleteProduct(cartData) {
   if (infoProducts) {
     infoProducts.addEventListener("click", (e) => {
       const deleteBtn = e.target.closest(".product-delete");
+      const nameItem = infoProducts.querySelector(".product-name p");
       const btnId = parseInt(e.target.id);
       if (deleteBtn) {
-        cartData.splice(btnId, 1);
-        render(cartData);
-        updatePrice(cartData);
-        saveData(cartData);
+        const confirmMessage = confirm(
+          `Bạn có muốn xóa sản phẩm: ${nameItem.textContent}`
+        );
+        if (confirmMessage) {
+          cartData.splice(btnId, 1);
+          render(cartData);
+          updatePrice(cartData);
+          saveData(cartData);
+        } else {
+          return;
+        }
       }
     });
   }

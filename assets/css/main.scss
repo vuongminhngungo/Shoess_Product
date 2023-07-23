@@ -60,6 +60,7 @@ header.header-top {
         }
       }
       .search {
+        position: relative;
         .search-icon {
           color: rgba(255, 255, 255, 0.8);
         }
@@ -71,6 +72,52 @@ header.header-top {
           color: rgba(255, 255, 255, 0.8);
           background-color: transparent;
           font-size: 1.6rem;
+        }
+        .list-Item {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 30px;
+          box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.26);
+          z-index: 10;
+          .item-search {
+            min-width: 300px;
+            padding: 8px 18px;
+            background-color: #fff;
+            border-bottom: 1px solid #eaeaea;
+            .item-link {
+              display: flex;
+              align-items: center;
+              gap: 26px;
+              .item-searchImg {
+                width: 80px;
+                height: 70px;
+                object-fit: cover;
+              }
+              .item-content {
+                .item-name {
+                  color: #334862;
+                  font-size: 1.6rem;
+                  margin-bottom: 10px;
+                }
+                .item-price {
+                  color: #a10f0f;
+                  font-size: 1.3rem;
+                  font-weight: 600;
+                  &::after {
+                    content: "đ";
+                    text-decoration: underline;
+                  }
+                }
+              }
+              &:hover .item-content .item-name {
+                color: #a10f0f;
+              }
+            }
+          }
+          .not-found {
+            color: #fff;
+          }
         }
       }
       .cart {

@@ -66,6 +66,9 @@ header.header-top .container .body .logo strong {
   font-weight: 600;
   margin-bottom: 4px;
 }
+header.header-top .container .body .search {
+  position: relative;
+}
 header.header-top .container .body .search .search-icon {
   color: rgba(255, 255, 255, 0.8);
 }
@@ -77,6 +80,51 @@ header.header-top .container .body .search .search-input {
   color: rgba(255, 255, 255, 0.8);
   background-color: transparent;
   font-size: 1.6rem;
+}
+header.header-top .container .body .search .list-Item {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 30px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.26);
+  z-index: 10;
+}
+header.header-top .container .body .search .list-Item .item-search {
+  min-width: 300px;
+  padding: 8px 18px;
+  background-color: #fff;
+  border-bottom: 1px solid #eaeaea;
+}
+header.header-top .container .body .search .list-Item .item-search .item-link {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+header.header-top .container .body .search .list-Item .item-search .item-link .item-searchImg {
+  width: 80px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+header.header-top .container .body .search .list-Item .item-search .item-link .item-content .item-name {
+  color: #334862;
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+header.header-top .container .body .search .list-Item .item-search .item-link .item-content .item-price {
+  color: #a10f0f;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+header.header-top .container .body .search .list-Item .item-search .item-link .item-content .item-price::after {
+  content: "đ";
+  text-decoration: underline;
+}
+header.header-top .container .body .search .list-Item .item-search .item-link:hover .item-content .item-name {
+  color: #a10f0f;
+}
+header.header-top .container .body .search .list-Item .not-found {
+  color: #fff;
 }
 header.header-top .container .body .cart {
   display: flex;
