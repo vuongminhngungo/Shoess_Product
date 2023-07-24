@@ -1,7 +1,7 @@
 export const productData = [
   {
     id: 1,
-    name: "Giày nam 01",
+    name: "Nike Air Max",
     price: "1,800,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product12.jpg",
@@ -9,7 +9,7 @@ export const productData = [
   },
   {
     id: 2,
-    name: "Giày nam 02",
+    name: "Adidas Ultraboost",
     price: "1,800,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product01.jpg",
@@ -17,7 +17,7 @@ export const productData = [
   },
   {
     id: 3,
-    name: "Giày nam 03",
+    name: "New Balance 990",
     price: "1,800,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product02.jpg",
@@ -25,7 +25,7 @@ export const productData = [
   },
   {
     id: 4,
-    name: "Giày nam 04",
+    name: "Puma RS-X",
     price: "2,100,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product03.jpg",
@@ -33,7 +33,7 @@ export const productData = [
   },
   {
     id: 5,
-    name: "Giày nam 05",
+    name: "Reebok Classic Leather",
     price: "1,900,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product04.jpg",
@@ -41,7 +41,7 @@ export const productData = [
   },
   {
     id: 6,
-    name: "Giày nam 06",
+    name: "Vans Old Skool",
     price: "1,120,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product05.jpg",
@@ -49,7 +49,7 @@ export const productData = [
   },
   {
     id: 7,
-    name: "Giày nam 07",
+    name: "Converse Chuck Taylor All Star",
     price: "1,260,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product06.jpg",
@@ -57,7 +57,7 @@ export const productData = [
   },
   {
     id: 8,
-    name: "Giày nam 08",
+    name: "Under Armour Curry",
     price: "1,520,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product07.jpg",
@@ -65,7 +65,7 @@ export const productData = [
   },
   {
     id: 9,
-    name: "Giày nam 09",
+    name: "Brooks Ghost",
     price: "1,200,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product08.jpg",
@@ -73,7 +73,7 @@ export const productData = [
   },
   {
     id: 10,
-    name: "Giày nam 10",
+    name: "Asics Gel-Kayano",
     price: "1,200,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product09.jpg",
@@ -81,7 +81,7 @@ export const productData = [
   },
   {
     id: 11,
-    name: "Giày nam 11",
+    name: "Jordan Retro",
     price: "1,300,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product10.jpg",
@@ -89,7 +89,7 @@ export const productData = [
   },
   {
     id: 12,
-    name: "Giày nam 12",
+    name: "Saucony Jazz Original",
     price: "1,160,000 ",
     category: "man",
     image: "./assets/img/Product/List-product/product11.jpg",
@@ -99,7 +99,7 @@ export const productData = [
   //   nữ
   {
     id: 13,
-    name: "Giày nữ  01",
+    name: "Nike Air Force 1",
     price: "1,800,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product12.jpg",
@@ -107,7 +107,7 @@ export const productData = [
   },
   {
     id: 14,
-    name: "Giày nữ 02",
+    name: "Adidas Superstar",
     price: "1,800,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product01.jpg",
@@ -115,7 +115,7 @@ export const productData = [
   },
   {
     id: 15,
-    name: "Giày nữ 03",
+    name: "Puma Cali",
     price: "1,800,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product02.jpg",
@@ -123,7 +123,7 @@ export const productData = [
   },
   {
     id: 16,
-    name: "Giày nữ 04",
+    name: "New Balance 574",
     price: "2,100,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product03.jpg",
@@ -131,7 +131,7 @@ export const productData = [
   },
   {
     id: 17,
-    name: "Giày nữ 05",
+    name: "Reebok Club C",
     price: "1,900,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product04.jpg",
@@ -139,7 +139,7 @@ export const productData = [
   },
   {
     id: 18,
-    name: "Giày nữ 06",
+    name: "Vans Authentic",
     price: "1,120,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product05.jpg",
@@ -147,7 +147,7 @@ export const productData = [
   },
   {
     id: 19,
-    name: "Giày nữ 07",
+    name: "Converse Chuck Taylor All Star",
     price: "1,260,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product06.jpg",
@@ -155,7 +155,7 @@ export const productData = [
   },
   {
     id: 20,
-    name: "Giày nữ 08",
+    name: "Under Armour HOVR",
     price: "1,520,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product07.jpg",
@@ -163,7 +163,7 @@ export const productData = [
   },
   {
     id: 21,
-    name: "Giày nữ 09",
+    name: "Brooks Adrenaline GTS",
     price: "1,200,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product08.jpg",
@@ -171,7 +171,7 @@ export const productData = [
   },
   {
     id: 22,
-    name: "Giày nữ 10",
+    name: "Asics Gel-Nimbus",
     price: "1,200,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product09.jpg",
@@ -179,7 +179,7 @@ export const productData = [
   },
   {
     id: 23,
-    name: "Giày nữ 11",
+    name: "Skechers D'Lites",
     price: "1,300,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product10.jpg",
@@ -187,7 +187,7 @@ export const productData = [
   },
   {
     id: 24,
-    name: "Giày nữ 12",
+    name: "Saucony Kinvara",
     price: "1,160,000 ",
     category: "woman",
     image: "./assets/img/Product/List-product/product11.jpg",
@@ -197,7 +197,7 @@ export const productData = [
   //trẻ con
   {
     id: 25,
-    name: "Giày trẻ con 01",
+    name: "Nike Revolution",
     price: "1,800,000 ",
     category: "children",
     image: "./assets/img/Product/List-product/product13.jpg",
@@ -205,7 +205,7 @@ export const productData = [
   },
   {
     id: 26,
-    name: "Giày trẻ con 02",
+    name: "Adidas Superstar Foundation",
     price: "1,800,000 ",
     category: "children",
     image: "./assets/img/Product/List-product/product14.jpg",
@@ -213,7 +213,7 @@ export const productData = [
   },
   {
     id: 27,
-    name: "Giày trẻ con 03",
+    name: "New Balance 680",
     price: "1,800,000 ",
     category: "children",
     image: "./assets/img/Product/List-product/product15.jpg",
@@ -221,7 +221,7 @@ export const productData = [
   },
   {
     id: 28,
-    name: "Giày trẻ con 04",
+    name: "Puma Carson",
     price: "2,100,000 ",
     category: "children",
     image: "./assets/img/Product/List-product/product16.jpg",
@@ -229,7 +229,7 @@ export const productData = [
   },
   {
     id: 29,
-    name: "Giày trẻ con 05",
+    name: "Reebok Rush Runner",
     price: "1,900,000 ",
     category: "children",
     image: "./assets/img/Product/List-product/product17.jpg",
@@ -237,7 +237,7 @@ export const productData = [
   },
   {
     id: 30,
-    name: "Giày trẻ con 06",
+    name: "Vans Ward",
     price: "1,900,000 ",
     category: "children",
     image: "./assets/img/Product/List-product/product18.jpg",
@@ -247,7 +247,7 @@ export const productData = [
   //   other
   {
     id: 31,
-    name: "Phụ kiện khác 05",
+    name: "Nike Elite Basketball Socks",
     price: "1,900,000 ",
     category: "other",
     image: "./assets/img/other-product/img01.jpg",
@@ -255,7 +255,7 @@ export const productData = [
   },
   {
     id: 32,
-    name: "Phụ kiện khác 06",
+    name: "Adidas Sport Duffel Bag",
     price: "1,120,000 ",
     category: "other",
     image: "./assets/img/other-product/img02.jpg",
@@ -263,7 +263,7 @@ export const productData = [
   },
   {
     id: 33,
-    name: "Phụ kiện khác 07",
+    name: "Under Armour Sweatband",
     price: "1,260,000 ",
     category: "other",
     image: "./assets/img/other-product/img03.jpg",
@@ -271,7 +271,7 @@ export const productData = [
   },
   {
     id: 34,
-    name: "Phụ kiện khác 08",
+    name: "Puma Running Hat",
     price: "1,520,000 ",
     category: "other",
     image: "./assets/img/other-product/img04.jpg",
@@ -279,7 +279,7 @@ export const productData = [
   },
   {
     id: 35,
-    name: "Phụ kiện khác 09",
+    name: "Reebok CrossFit Gloves",
     price: "1,200,000 ",
     category: "other",
     image: "./assets/img/other-product/img05.jpg",
@@ -287,7 +287,7 @@ export const productData = [
   },
   {
     id: 36,
-    name: "Phụ kiện khác 10",
+    name: "Vans Checkerboard Backpack",
     price: "1,200,000 ",
     category: "other",
     image: "./assets/img/other-product/img06.jpg",
@@ -295,7 +295,7 @@ export const productData = [
   },
   {
     id: 37,
-    name: "Phụ kiện khác 11",
+    name: "Converse Shoe Care Kit",
     price: "1,300,000 ",
     category: "other",
     image: "./assets/img/other-product/img07.jpg",
@@ -303,7 +303,7 @@ export const productData = [
   },
   {
     id: 38,
-    name: "Phụ kiện khác 12",
+    name: "Asics Headband",
     price: "1,160,000 ",
     category: "other",
     image: "./assets/img/other-product/img08.jpg",
